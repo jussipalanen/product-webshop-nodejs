@@ -49,6 +49,9 @@ app.post('/products' , (request , response)=>{
 })
 
 
+/**
+ * Delete the single product by id parameter
+ */
 app.delete('/products', (request, response) => {
 
     try {
